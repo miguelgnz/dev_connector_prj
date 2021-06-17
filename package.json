@@ -19,7 +19,8 @@
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.13",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "concurrently": "^6.2.0",

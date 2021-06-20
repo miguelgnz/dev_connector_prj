@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 //CONNECT TO REDUX
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import { login } from '../../actions/auth';
 
 const Login = ({ login, isAuthenticated }) => {

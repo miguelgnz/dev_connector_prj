@@ -53,6 +53,8 @@ export const register = ({ name, email, password }) => async dispatch => {
 
         dispatch(loadUser());
     } catch (err) {
+
+        //Setting the alert
         const errors = err.response.data.errors;
 
         if (errors) {
